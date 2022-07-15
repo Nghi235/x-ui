@@ -13,7 +13,7 @@ Hỗ trợ bảng điều khiển xray đa giao thức và nhiều người dùn
 
 # Cài đặt & Nâng cấp
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/DauDau432/VH_x-ui/main/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Nghi235/x-ui/main/install.sh)
 ```
 
 ## Hệ thống đề xuất
