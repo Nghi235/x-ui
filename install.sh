@@ -114,7 +114,7 @@ install_x-ui() {
     cd x-ui
     chmod +x x-ui bin/xray-linux-${arch}
     cp -f x-ui.service /etc/systemd/system/
-    wget -O /usr/bin/x-ui -N --no-check-certificate https://raw.githubusercontent.com/DauDau432/VH_x-ui/main/x-ui.sh
+    wget -O /usr/bin/x-ui -N --no-check-certificate https://raw.githubusercontent.com/Nghi235/x-ui/main/x-ui.sh
     chmod +x /usr/bin/x-ui
     systemctl daemon-reload
     systemctl enable x-ui
@@ -133,7 +133,7 @@ install_x-ui() {
     echo -e "  Tài khoản và mật khẩu mặc định là:  ${green}admin${plain}"
     echo -e ""
     echo -e "      Cách sử dụng tập lệnh quản lý: "
-    echo -e "--------------${green}[Đậu Đậu việt hóa]${plain}--------------"     
+    echo -e "--------------${green}[Nguyễn Nghị]${plain}--------------"     
     echo -e "  x-ui              - Menu quản lý x-ui (nhiều chức năng hơn)"
     echo -e "  x-ui start        - Khởi chạy bảng điều khiển x-ui"
     echo -e "  x-ui stop         - Dừng bảng điều khiển x-ui"
